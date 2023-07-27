@@ -1,0 +1,65 @@
+/*.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*/
+
+Body{
+    background: rgb(135, 74, 241);
+}
+
+header{
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    /*border-radius: 10px;
+    text-align: center;
+    margin: 20px;*/
+}
+
+.resultado{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.opciones{
+    display: flex;
+    justify-content: space-around;    
+    font-size: 25px;
+    margin: 50px 0;
+}
+
+.opcion{
+    width: 100px;
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 50%;
+}
+
+.opcion img{
+    width:100px;
+}
+
+.opcion:hover{
+    background-color:aqua;
+    cursor: pointer;
+}
+
+.img{
+    position: relative;
+}
+
+.ganador{
+    color: rgb(67, 238, 67);
+    font-size: 25px;
+}
+
+.perdedor{
+    color: red;
+    font-size: 25px;
+}
+
+.empate{
+    color: yellow;
+    font-size: 25px;
+}

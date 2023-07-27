@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <title>Juego Piedra, Papel o Tijera</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+  <header align="center">
+    <h1>Juego de piedra papel o tijera</h1>    
+    <div class="img" id="imagen">
+      <img src="images/icon-lizard.svg" alt="">
+    </div>
+
+    <!--Acá se visualiza el resultado-->
+    <div class="resultado" id="resultado">
+      ¡¡Jugamos!!
+    </div>
+
+    <div class="opciones">
+      <div class="opcion" id="piedra">
+        <img src="images/icon-rock.svg" alt="piedra" id="piedra" onclick="juego(this)">
+      </div>
+      <div class="opcion" id="papel">
+        <img src="images/icon-paper.svg" alt="papel" id="piedra" onclick="juego(this)">
+      </div>
+      <div class="opcion" id="tijera">
+        <img src="images/icon-scissors.svg" alt="tijera" id="piedra" onclick="juego(this)">
+      </div>
+    </div>
+  </header>
+
+  <script src="Js/main.js"></script>
+  
+</body>
+</html>
